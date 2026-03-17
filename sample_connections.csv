@@ -1,0 +1,154 @@
+Notes:
+"This is a sample dataset with fictitious names for demonstration purposes."
+"No real individuals are represented in this data."
+First Name,Last Name,URL,Email Address,Company,Position,Connected On
+Alex,Chen,https://www.linkedin.com/in/alexchen01,,Google,Senior Machine Learning Engineer,15 Feb 2026
+Priya,Sharma,https://www.linkedin.com/in/priyasharma02,,Meta,AI Research Scientist,10 Feb 2026
+James,Wilson,https://www.linkedin.com/in/jameswilson03,james.w@email.com,OpenAI,Staff Software Engineer,08 Feb 2026
+Sarah,Patel,https://www.linkedin.com/in/sarahpatel04,,Anthropic,Senior ML Engineer,05 Feb 2026
+Michael,Rodriguez,https://www.linkedin.com/in/michaelrodriguez05,,Google,Engineering Manager - AI Platform,01 Feb 2026
+Emily,Zhang,https://www.linkedin.com/in/emilyzhang06,,Stripe,Senior Software Engineer,28 Jan 2026
+David,Kim,https://www.linkedin.com/in/davidkim07,,Microsoft,Principal Data Scientist,25 Jan 2026
+Jessica,Brown,https://www.linkedin.com/in/jessicabrown08,,Amazon,Senior Technical Recruiter,22 Jan 2026
+Ryan,Nguyen,https://www.linkedin.com/in/ryannguyen09,,NVIDIA,Deep Learning Engineer,20 Jan 2026
+Anika,Desai,https://www.linkedin.com/in/anikadesai10,,Scale AI,Co-Founder & CTO,18 Jan 2026
+Chris,Taylor,https://www.linkedin.com/in/christaylor11,,Apple,ML Infrastructure Lead,15 Jan 2026
+Nadia,Hassan,https://www.linkedin.com/in/nadiahassan12,,Netflix,Senior Data Engineer,12 Jan 2026
+Tom,Garcia,https://www.linkedin.com/in/tomgarcia13,,LinkedIn,Staff Recruiter,10 Jan 2026
+Mei,Li,https://www.linkedin.com/in/meili14,,Tesla,Autopilot ML Engineer,08 Jan 2026
+Brandon,Cooper,https://www.linkedin.com/in/brandoncooper15,,Databricks,Founder & CEO,05 Jan 2026
+Sophia,Andersen,https://www.linkedin.com/in/sophiaandersen16,,Airbnb,Senior Software Engineer,02 Jan 2026
+Omar,Khalil,https://www.linkedin.com/in/omarkhalil17,,Google DeepMind,Research Engineer,30 Dec 2025
+Rachel,Thompson,https://www.linkedin.com/in/rachelthompson18,,Figma,VP of Engineering,28 Dec 2025
+Daniel,Park,https://www.linkedin.com/in/danielpark19,,Samsung,AI Research Lead,25 Dec 2025
+Laura,Martinez,https://www.linkedin.com/in/lauramartinez20,,Salesforce,Director of Machine Learning,22 Dec 2025
+Kevin,Wright,https://www.linkedin.com/in/kevinwright21,,Uber,Senior ML Engineer,20 Dec 2025
+Fatima,Ali,https://www.linkedin.com/in/fatimaali22,,Hugging Face,Co-Founder,18 Dec 2025
+Nathan,Scott,https://www.linkedin.com/in/nathanscott23,,Coinbase,Senior Backend Engineer,15 Dec 2025
+Yuki,Tanaka,https://www.linkedin.com/in/yukitanaka24,,Sony,Computer Vision Researcher,12 Dec 2025
+Angela,Davis,https://www.linkedin.com/in/angeladavis25,,Google,Technical Recruiter - AI,10 Dec 2025
+Marcus,Lee,https://www.linkedin.com/in/marcuslee26,,Spotify,Data Science Manager,08 Dec 2025
+Rina,Gupta,https://www.linkedin.com/in/rinagupta27,,Microsoft,Principal ML Engineer,05 Dec 2025
+Jake,Anderson,https://www.linkedin.com/in/jakeanderson28,,Palantir,Senior Software Engineer,02 Dec 2025
+Chloe,Wang,https://www.linkedin.com/in/chloewang29,,Notion,Senior Product Manager,30 Nov 2025
+Victor,Hernandez,https://www.linkedin.com/in/victorhernandez30,,AMD,GPU Architecture Engineer,28 Nov 2025
+Grace,Miller,https://www.linkedin.com/in/gracemiller31,,Datadog,Senior SRE,25 Nov 2025
+Arjun,Mehta,https://www.linkedin.com/in/arjunmehta32,,Cerebras,Founder & CTO,22 Nov 2025
+Tessa,Clark,https://www.linkedin.com/in/tessaclark33,,Snowflake,Senior Data Engineer,20 Nov 2025
+Liam,O'Brien,https://www.linkedin.com/in/liamobrien34,,Slack,Engineering Manager,18 Nov 2025
+Nina,Petrov,https://www.linkedin.com/in/ninapetrov35,,DeepMind,Senior Research Scientist,15 Nov 2025
+Samuel,Young,https://www.linkedin.com/in/samuelyoung36,,Robinhood,Senior Software Engineer,12 Nov 2025
+Zara,Khan,https://www.linkedin.com/in/zarakhan37,,Adobe,ML Platform Engineer,10 Nov 2025
+Ethan,Brooks,https://www.linkedin.com/in/ethanbrooks38,,Waymo,Autonomous Driving ML Lead,08 Nov 2025
+Helen,Nakamura,https://www.linkedin.com/in/helennakamura39,,Atlassian,Senior Technical Recruiter,05 Nov 2025
+Marco,Rossi,https://www.linkedin.com/in/marcorossi40,,Ferrari,AI Strategy Director,02 Nov 2025
+Isabel,Fernandez,https://www.linkedin.com/in/isabelfernandez41,,Shopify,Staff Software Engineer,30 Oct 2025
+Derek,Chang,https://www.linkedin.com/in/derekchang42,,Rippling,Co-Founder & VP Engineering,28 Oct 2025
+Amara,Williams,https://www.linkedin.com/in/amarawilliams43,,Stripe,Senior ML Engineer,25 Oct 2025
+Peter,Sullivan,https://www.linkedin.com/in/petersullivan44,,IBM,Distinguished Engineer - AI,22 Oct 2025
+Leila,Osman,https://www.linkedin.com/in/leilaosman45,,Moderna,Head of AI & Data,20 Oct 2025
+Tyler,Bennett,https://www.linkedin.com/in/tylerbennett46,,Twitch,Senior Software Engineer,18 Oct 2025
+Simone,Becker,https://www.linkedin.com/in/simonebecker47,,SAP,Data Science Lead,15 Oct 2025
+Adrian,Morales,https://www.linkedin.com/in/adrianmorales48,,DoorDash,Senior Backend Engineer,12 Oct 2025
+Kira,Johansson,https://www.linkedin.com/in/kirajohansson49,,Spotify,NLP Research Engineer,10 Oct 2025
+Ben,Foster,https://www.linkedin.com/in/benfoster50,,Anduril,Senior Systems Engineer,08 Oct 2025
+Maya,Reddy,https://www.linkedin.com/in/mayareddy51,,Google,Senior Recruiter - Engineering,05 Oct 2025
+Lucas,Durand,https://www.linkedin.com/in/lucasdurand52,,Mistral AI,Founding Engineer,02 Oct 2025
+Hannah,Price,https://www.linkedin.com/in/hannahprice53,,Plaid,Senior Software Engineer,30 Sep 2025
+Rohan,Kapoor,https://www.linkedin.com/in/rohankapoor54,,Cohere,ML Research Scientist,28 Sep 2025
+Elena,Volkov,https://www.linkedin.com/in/elenavolkov55,,Yandex,Senior NLP Engineer,25 Sep 2025
+Jack,Murphy,https://www.linkedin.com/in/jackmurphy56,,Block,Staff Engineer,22 Sep 2025
+Priscilla,Torres,https://www.linkedin.com/in/priscillatorres57,,Meta,AI Ethics Researcher,20 Sep 2025
+Vijay,Rao,https://www.linkedin.com/in/vijayrao58,,Infosys,VP of Technology,18 Sep 2025
+Carmen,Ortiz,https://www.linkedin.com/in/carmenortiz59,,Lyft,Senior ML Engineer,15 Sep 2025
+Max,Hoffman,https://www.linkedin.com/in/maxhoffman60,,Siemens,AI Solutions Architect,12 Sep 2025
+Diana,Reeves,https://www.linkedin.com/in/dianareeves61,,Hinge,Senior Technical Recruiter,10 Sep 2025
+Leo,Sato,https://www.linkedin.com/in/leosato62,,Toyota Research,Robotics ML Engineer,08 Sep 2025
+Alisha,Nair,https://www.linkedin.com/in/alishanair63,,Flipkart,Engineering Manager - ML,05 Sep 2025
+Greg,Hamilton,https://www.linkedin.com/in/greghamilton64,,Lockheed Martin,Senior AI Engineer,02 Sep 2025
+Tanya,Ivanova,https://www.linkedin.com/in/tanyaivanova65,,Grammarly,NLP Lead,30 Aug 2025
+Patrick,Kelly,https://www.linkedin.com/in/patrickkelly66,,Cruise,Perception Engineer,28 Aug 2025
+Sana,Qureshi,https://www.linkedin.com/in/sanaqureshi67,,Canva,Senior Software Engineer,25 Aug 2025
+Owen,Phillips,https://www.linkedin.com/in/owenphillips68,,Vercel,Developer Experience Lead,22 Aug 2025
+Mira,Shah,https://www.linkedin.com/in/mirashah69,,JPMorgan Chase,Director of AI Research,20 Aug 2025
+Travis,Reed,https://www.linkedin.com/in/travisreed70,,Roblox,Senior Game Engineer,18 Aug 2025
+Nora,Eriksen,https://www.linkedin.com/in/noraeriksen71,,Klarna,Senior Data Scientist,15 Aug 2025
+Jason,Carter,https://www.linkedin.com/in/jasoncarter72,,Palantir,Technical Recruiter,12 Aug 2025
+Divya,Iyer,https://www.linkedin.com/in/divyaiyer73,,Swiggy,Co-Founder & CEO,10 Aug 2025
+Felix,Muller,https://www.linkedin.com/in/felixmuller74,,BMW,Autonomous Driving Lead,08 Aug 2025
+Rebecca,Lane,https://www.linkedin.com/in/rebeccalane75,,Asana,Senior Product Engineer,05 Aug 2025
+Karthik,Venkatesh,https://www.linkedin.com/in/karthikvenkatesh76,,Zoho,CTO,02 Aug 2025
+Olivia,Grant,https://www.linkedin.com/in/oliviagrant77,,Pinterest,ML Platform Engineer,30 Jul 2025
+Raj,Bhandari,https://www.linkedin.com/in/rajbhandari78,,Tiger Global,Partner - Deep Tech,28 Jul 2025
+Monica,Sanchez,https://www.linkedin.com/in/monicasanchez79,,Duolingo,Senior Data Scientist,25 Jul 2025
+Ian,Foster,https://www.linkedin.com/in/ianfoster80,,Cloudflare,Senior Systems Engineer,22 Jul 2025
+Priya,Menon,https://www.linkedin.com/in/priyamenon81,,Freshworks,VP of Engineering,20 Jul 2025
+Charlie,Hayes,https://www.linkedin.com/in/charliehayes82,,Reddit,Senior Backend Engineer,18 Jul 2025
+Aaliya,Joshi,https://www.linkedin.com/in/aaliyajoshi83,,Ola,Head of Data Science,15 Jul 2025
+Steve,Wagner,https://www.linkedin.com/in/stevewagner84,,Intel,Principal AI Architect,12 Jul 2025
+Rosa,Delgado,https://www.linkedin.com/in/rosadelgado85,,Mercado Libre,Senior ML Engineer,10 Jul 2025
+Andy,Chen,https://www.linkedin.com/in/andychen86,,Ripple,Blockchain Engineer,08 Jul 2025
+Samira,Abdi,https://www.linkedin.com/in/samiraabdi87,,Recursion Pharmaceuticals,AI Research Lead,05 Jul 2025
+Nick,Palmer,https://www.linkedin.com/in/nickpalmer88,,Epic Games,Senior Graphics Engineer,02 Jul 2025
+Tara,Malhotra,https://www.linkedin.com/in/taramalhotra89,,Amazon,Senior Recruiter - AWS AI,30 Jun 2025
+George,Kim,https://www.linkedin.com/in/georgekim90,,Samsung Research,LLM Research Scientist,28 Jun 2025
+Eva,Lindqvist,https://www.linkedin.com/in/evalindqvist91,eva.l@email.com,Spotify,Engineering Director,25 Jun 2025
+Ravi,Sundaram,https://www.linkedin.com/in/ravisundaram92,,Wipro,Chief AI Officer,22 Jun 2025
+Kelly,James,https://www.linkedin.com/in/kellyjames93,,GitHub,Staff Software Engineer,20 Jun 2025
+Amit,Trivedi,https://www.linkedin.com/in/amittrivedi94,,Reliance Jio,Founder - AI Ventures,18 Jun 2025
+Vanessa,Hart,https://www.linkedin.com/in/vanessahart95,,Zoom,Senior ML Engineer,15 Jun 2025
+Dan,Mitchell,https://www.linkedin.com/in/danmitchell96,,Twitter,Senior Software Engineer,12 Jun 2025
+Sneha,Kulkarni,https://www.linkedin.com/in/snehakulkarni97,,PhonePe,Data Science Manager,10 Jun 2025
+Brian,Russell,https://www.linkedin.com/in/brianrussell98,,Northrop Grumman,AI Systems Lead,08 Jun 2025
+Jasmine,Wu,https://www.linkedin.com/in/jasminewu99,,Figma,Senior Frontend Engineer,05 Jun 2025
+Carlos,Rivera,https://www.linkedin.com/in/carlosrivera100,,Nubank,Co-Founder & CTO,02 Jun 2025
+Amy,Fletcher,https://www.linkedin.com/in/amyfletcher101,,Microsoft,Technical Recruiter - Azure AI,30 May 2025
+Nikhil,Agarwal,https://www.linkedin.com/in/nikhilagarwal102,,Razorpay,Senior Backend Engineer,28 May 2025
+Serena,Burke,https://www.linkedin.com/in/serenaburke103,,Airbnb,Data Science Lead,25 May 2025
+Josh,Pearson,https://www.linkedin.com/in/joshpearson104,,Crowdstrike,Senior Security Engineer,22 May 2025
+Ananya,Chatterjee,https://www.linkedin.com/in/ananyachatterjee105,,Tata Consultancy,Director of Innovation,20 May 2025
+Will,Dixon,https://www.linkedin.com/in/willdixon106,,SpaceX,Embedded Systems Engineer,18 May 2025
+Hana,Mori,https://www.linkedin.com/in/hanamori107,,Preferred Networks,Deep Learning Researcher,15 May 2025
+Luke,Sanders,https://www.linkedin.com/in/lukesanders108,,Okta,Senior Software Engineer,12 May 2025
+Riya,Dutta,https://www.linkedin.com/in/riyadutta109,,Dream11,ML Engineer,10 May 2025
+Colin,Stewart,https://www.linkedin.com/in/colinstewart110,,Rolls-Royce,AI/ML Solutions Director,08 May 2025
+Zoe,Franklin,https://www.linkedin.com/in/zoefranklin111,,Bumble,Senior Product Manager,05 May 2025
+Vikram,Singh,https://www.linkedin.com/in/vikramsingh112,,Paytm,Co-Founder,02 May 2025
+Claire,Adams,https://www.linkedin.com/in/clairenadams113,,Deloitte,AI Strategy Consultant,30 Apr 2025
+Tariq,Hassan,https://www.linkedin.com/in/tariqhassan114,,Careem,VP of Engineering,28 Apr 2025
+Jenny,Crawford,https://www.linkedin.com/in/jennycrawford115,,Snap Inc,Computer Vision Engineer,25 Apr 2025
+Siddharth,Rao,https://www.linkedin.com/in/siddharthrao116,,CRED,Founding Engineer,22 Apr 2025
+Maria,Santos,https://www.linkedin.com/in/mariasantos117,,iFood,Senior Data Engineer,20 Apr 2025
+Keith,Richardson,https://www.linkedin.com/in/keithrichardson118,,Raytheon,Senior Systems Architect,18 Apr 2025
+Pooja,Verma,https://www.linkedin.com/in/poojaverma119,,Meesho,Senior ML Engineer,15 Apr 2025
+Austin,Cole,https://www.linkedin.com/in/austincole120,,Rivian,Autonomy Software Engineer,12 Apr 2025
+Lena,Fischer,https://www.linkedin.com/in/lenafischer121,,Zalando,Senior Data Scientist,10 Apr 2025
+Troy,Bennett,https://www.linkedin.com/in/troybennett122,,Lockheed Martin,Technical Recruiter,08 Apr 2025
+Kavya,Nambiar,https://www.linkedin.com/in/kavyanambiar123,,Zerodha,CTO,05 Apr 2025
+Simon,Hughes,https://www.linkedin.com/in/simonhughes124,,ARM,Principal CPU Architect,02 Apr 2025
+Lily,Morgan,https://www.linkedin.com/in/lilymorgan125,,Elastic,Senior Search Engineer,30 Mar 2025
+Rahul,Bansal,https://www.linkedin.com/in/rahulbansal126,,BrowserStack,Co-Founder & CEO,28 Mar 2025
+Natalie,Webb,https://www.linkedin.com/in/nataliewebb127,,Instacart,Senior Software Engineer,25 Mar 2025
+Imran,Malik,https://www.linkedin.com/in/imranmalik128,,Grab,Director of Data Science,22 Mar 2025
+Audrey,Ross,https://www.linkedin.com/in/audreyross129,,Genentech,Computational Biology Lead,20 Mar 2025
+Derek,Stone,https://www.linkedin.com/in/derekstone130,,Roku,Senior Platform Engineer,18 Mar 2025
+Meera,Krishnan,https://www.linkedin.com/in/meerakrishnan131,,Myntra,Senior ML Engineer,15 Mar 2025
+Paul,Fisher,https://www.linkedin.com/in/paulfisher132,,Boeing,AI Research Engineer,12 Mar 2025
+Yara,El-Amin,https://www.linkedin.com/in/yaraelamin133,,Delivery Hero,Senior Backend Engineer,10 Mar 2025
+Scott,Duncan,https://www.linkedin.com/in/scottduncan134,,Splunk,Staff Data Engineer,08 Mar 2025
+Anjali,Bhatt,https://www.linkedin.com/in/anjalibhatt135,anjali.b@email.com,Google,Senior Recruiter - DeepMind,05 Mar 2025
+Logan,Murray,https://www.linkedin.com/in/loganmurray136,,Regeneron,ML Engineer - Drug Discovery,02 Mar 2025
+Iris,Nakagawa,https://www.linkedin.com/in/irisnakagawa137,,LINE,NLP Research Lead,28 Feb 2025
+Blake,Harrison,https://www.linkedin.com/in/blakeharrison138,,Anduril,Founding Engineer,25 Feb 2025
+Shreya,Patil,https://www.linkedin.com/in/shreyapatil139,,Zomato,Head of ML,22 Feb 2025
+Evan,Mitchell,https://www.linkedin.com/in/evanmitchell140,,Databricks,Solutions Architect,20 Feb 2025
+Camille,Dubois,https://www.linkedin.com/in/camilledubois141,,BNP Paribas,Quantitative Analyst,18 Feb 2025
+Arun,Prakash,https://www.linkedin.com/in/arunprakash142,,Flipkart,Co-Founder,15 Feb 2025
+Kate,Sullivan,https://www.linkedin.com/in/katesullivan143,,Datadog,Technical Recruiter,12 Feb 2025
+Noah,Reed,https://www.linkedin.com/in/noahreed144,,Apple,ML Compiler Engineer,10 Feb 2025
+Diya,Sethi,https://www.linkedin.com/in/diyasethi145,,OYO,VP of Data Science,08 Feb 2025
+Joel,Warren,https://www.linkedin.com/in/joelwarren146,,HashiCorp,Senior Infrastructure Engineer,05 Feb 2025
+Mina,Farouk,https://www.linkedin.com/in/minafarouk147,,Careem,Senior Software Engineer,02 Feb 2025
+Brett,Coleman,https://www.linkedin.com/in/brettcoleman148,,General Motors,Autonomous Vehicle ML Lead,30 Jan 2025
+Sunita,Rao,https://www.linkedin.com/in/sunitarao149,,Mindtree,Delivery Director,28 Jan 2025
+Alex,Rivera,https://www.linkedin.com/in/alexrivera150,,Anthropic,Research Scientist - Alignment,25 Jan 2025
