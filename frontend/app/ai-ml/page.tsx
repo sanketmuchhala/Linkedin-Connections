@@ -75,7 +75,7 @@ export default function AiMlPage() {
             <div key={connection.id} className="p-4 bg-purple-50 border border-purple-200 rounded-lg">
               <div className="flex justify-between items-start">
                 <div className="flex-1">
-                  <h3 className="font-semibold text-gray-900">{connection.full_name_normalized}</h3>
+                  <a href={connection.linkedin_url} target="_blank" rel="noopener noreferrer" className="font-semibold text-blue-600 hover:underline">{connection.full_name_normalized}</a>
                   <p className="text-sm text-gray-700 mt-1">{connection.position_normalized}</p>
                   <p className="text-sm text-gray-600">{connection.company_normalized}</p>
                   <div className="flex gap-2 mt-2">
@@ -100,15 +100,7 @@ export default function AiMlPage() {
                   <div className="text-2xl font-bold text-purple-600">
                     {connection.total_score.toFixed(0)}
                   </div>
-                  <div className="text-xs text-gray-500 mb-2">Priority Score</div>
-                  <a
-                    href={connection.linkedin_url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-block px-3 py-1 text-xs bg-purple-600 text-white rounded-lg hover:bg-purple-700"
-                  >
-                    LinkedIn →
-                  </a>
+                  <div className="text-xs text-gray-500">Priority Score</div>
                 </div>
               </div>
             </div>

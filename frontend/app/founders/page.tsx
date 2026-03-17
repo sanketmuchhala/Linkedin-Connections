@@ -67,7 +67,7 @@ export default function FoundersPage() {
               <div key={founder.id} className="p-4 bg-purple-50 border border-purple-200 rounded-lg">
                 <div className="flex justify-between items-start">
                   <div>
-                    <div className="font-semibold text-gray-900">{founder.full_name_normalized}</div>
+                    <a href={founder.linkedin_url} target="_blank" rel="noopener noreferrer" className="font-semibold text-blue-600 hover:underline">{founder.full_name_normalized}</a>
                     <div className="text-sm text-gray-700 mt-1">{founder.position_normalized}</div>
                     <div className="text-sm text-gray-600">{founder.company_normalized}</div>
                   </div>
@@ -91,7 +91,7 @@ export default function FoundersPage() {
             <div key={founder.id} className="p-4 bg-orange-50 border border-orange-200 rounded-lg">
               <div className="flex justify-between items-start">
                 <div>
-                  <div className="font-semibold text-gray-900">{founder.full_name_normalized}</div>
+                  <a href={founder.linkedin_url} target="_blank" rel="noopener noreferrer" className="font-semibold text-blue-600 hover:underline">{founder.full_name_normalized}</a>
                   <div className="text-sm text-gray-700 mt-1">{founder.position_normalized}</div>
                   <div className="text-sm text-gray-600">{founder.company_normalized}</div>
                   <div className="mt-2 flex gap-1">
@@ -107,14 +107,7 @@ export default function FoundersPage() {
                 </div>
                 <div className="text-right">
                   <div className="text-xl font-bold text-orange-600">{founder.total_score.toFixed(0)}</div>
-                  <a
-                    href={founder.linkedin_url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="mt-2 inline-block px-2 py-1 text-xs bg-orange-600 text-white rounded hover:bg-orange-700"
-                  >
-                    LinkedIn
-                  </a>
+                  <div className="text-xs text-gray-500">Score</div>
                 </div>
               </div>
             </div>

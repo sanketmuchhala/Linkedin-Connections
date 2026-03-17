@@ -140,9 +140,9 @@ function OutreachGroup({
           >
             <div className="flex justify-between items-start">
               <div className="flex-1">
-                <h3 className="font-semibold text-gray-900">
+                <a href={connection.linkedin_url} target="_blank" rel="noopener noreferrer" className="font-semibold text-blue-600 hover:underline">
                   {connection.full_name_normalized}
-                </h3>
+                </a>
                 <p className="text-sm text-gray-700 mt-1">
                   {connection.position_normalized}
                 </p>
@@ -172,14 +172,6 @@ function OutreachGroup({
                   {connection.total_score.toFixed(0)}
                 </div>
                 <div className="text-xs text-gray-500">Score</div>
-                <a
-                  href={connection.linkedin_url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="mt-2 inline-block px-3 py-1 text-xs bg-blue-600 text-white rounded-lg hover:bg-blue-700"
-                >
-                  LinkedIn →
-                </a>
               </div>
             </div>
           </div>
