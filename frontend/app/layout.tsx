@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import SidebarNav from "./sidebar-nav";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -25,29 +26,7 @@ export default function RootLayout({
               <p className="text-sm text-gray-500 mt-1">Job Hunt Assistant</p>
             </div>
 
-            <nav className="mt-6">
-              <a href="/" className="block px-6 py-3 text-sm font-medium text-blue-600 bg-blue-50 border-l-4 border-blue-600">
-                Overview
-              </a>
-              <a href="/connections" className="block px-6 py-3 text-sm font-medium text-gray-700 hover:bg-gray-50">
-                Connections
-              </a>
-              <a href="/companies" className="block px-6 py-3 text-sm font-medium text-gray-700 hover:bg-gray-50">
-                Companies
-              </a>
-              <a href="/priority-outreach" className="block px-6 py-3 text-sm font-medium text-gray-700 hover:bg-gray-50">
-                Priority Outreach
-              </a>
-              <a href="/recruiters" className="block px-6 py-3 text-sm font-medium text-gray-700 hover:bg-gray-50">
-                Recruiters
-              </a>
-              <a href="/founders" className="block px-6 py-3 text-sm font-medium text-gray-700 hover:bg-gray-50">
-                Founders
-              </a>
-              <a href="/ai-ml" className="block px-6 py-3 text-sm font-medium text-gray-700 hover:bg-gray-50">
-                AI/ML Matches
-              </a>
-            </nav>
+            <SidebarNav />
           </aside>
 
           {/* Main Content */}
