@@ -3,6 +3,15 @@
 import { useEffect, useState } from 'react';
 import { apiClient } from '@/lib/api-client';
 import type { OverviewAnalytics } from '@/lib/types';
+import {
+  AreaChart,
+  Area,
+  XAxis,
+  YAxis,
+  CartesianGrid,
+  Tooltip,
+  ResponsiveContainer,
+} from 'recharts';
 
 export default function OverviewPage() {
   const [analytics, setAnalytics] = useState<OverviewAnalytics | null>(null);
@@ -80,6 +89,62 @@ export default function OverviewPage() {
           color="orange"
         />
       </div>
+
+      {/* Connection Growth Over Time */}
+      {analytics.connection_growth.length > 0 && (
+        <div className="bg-white rounded-lg shadow p-6">
+          <h2 className="text-xl font-semibold text-gray-900 mb-4">Connections Growth Over Time</h2>
+          <div className="h-80">
+            <ResponsiveContainer width="100%" height="100%">
+              <AreaChart
+                data={analytics.connection_growth}
+                margin={{ top: 10, right: 30, left: 0, bottom: 0 }}
+              >
+                <defs>
+                  <linearGradient id="colorCount" x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="5%" stopColor="#3b82f6" stopOpacity={0.3} />
+                    <stop offset="95%" stopColor="#3b82f6" stopOpacity={0} />
+                  </linearGradient>
+                </defs>
+                <CartesianGrid strokeDasharray="3 3" stroke="#f0f0f0" />
+                <XAxis
+                  dataKey="month"
+                  tick={{ fontSize: 12, fill: '#6b7280' }}
+                  tickLine={false}
+                  axisLine={{ stroke: '#e5e7eb' }}
+                />
+                <YAxis
+                  tick={{ fontSize: 12, fill: '#6b7280' }}
+                  tickLine={false}
+                  axisLine={{ stroke: '#e5e7eb' }}
+                />
+                <Tooltip
+                  contentStyle={{
+                    backgroundColor: '#fff',
+                    border: '1px solid #e5e7eb',
+                    borderRadius: '8px',
+                    fontSize: '14px',
+                  }}
+                  formatter={((value: any) => [Number(value).toLocaleString(), 'New Connections']) as any}
+                  labelFormatter={((label: any) => {
+                    const [year, month] = String(label).split('-');
+                    const date = new Date(Number(year), Number(month) - 1);
+                    return date.toLocaleDateString('en-US', { year: 'numeric', month: 'long' });
+                  }) as any}
+                />
+                <Area
+                  type="monotone"
+                  dataKey="count"
+                  stroke="#3b82f6"
+                  strokeWidth={2}
+                  fillOpacity={1}
+                  fill="url(#colorCount)"
+                />
+              </AreaChart>
+            </ResponsiveContainer>
+          </div>
+        </div>
+      )}
 
       {/* Top Companies */}
       <div className="bg-white rounded-lg shadow p-6">
