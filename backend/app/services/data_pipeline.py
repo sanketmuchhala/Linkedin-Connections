@@ -9,6 +9,7 @@ from .classification import ClassificationService
 from .scoring import ScoringService
 from .company_aggregation import CompanyAggregationService
 from ..models import Connection, ScoringConfig
+from ..models.company import Company
 from datetime import datetime
 
 
@@ -96,6 +97,8 @@ class DataPipeline:
             if overwrite:
                 print("Deleting existing connections...")
                 self.db.query(Connection).delete()
+                print("Deleting existing companies...")
+                self.db.query(Company).delete()
                 self.db.commit()
 
             # Step 2: Normalize data

@@ -160,7 +160,6 @@ The API will be available at **http://localhost:8000**. You can browse the inter
 ```bash
 cd frontend
 npm run dev
-import matplotlib.pyplot as plt
 ```
 
 The dashboard will be available at **http://localhost:3000**.
