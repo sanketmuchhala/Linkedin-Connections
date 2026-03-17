@@ -72,46 +72,46 @@ class DataPipeline:
         """
         try:
             # Step 1: Parse and validate CSV
-            print("📄 Parsing CSV file...")
+            print("Parsing CSV file...")
             parsed_data = self.csv_parser.parse(file_path)
             validation_warnings = self.csv_parser.validate(parsed_data)
 
             if validation_warnings:
-                print(f"⚠️  Found {len(validation_warnings)} warnings (invalid rows will be skipped)")
+                print(f"Found {len(validation_warnings)} warnings (invalid rows will be skipped)")
 
             # Filter out invalid records
             valid_records = [r for r in parsed_data if self.csv_parser.is_valid_record(r)]
             skipped_count = len(parsed_data) - len(valid_records)
 
             if skipped_count > 0:
-                print(f"⏭️  Skipping {skipped_count} invalid rows")
+                print(f"Skipping {skipped_count} invalid rows")
 
             # Get summary stats
             summary = self.csv_parser.get_summary(valid_records)
             summary['skipped_rows'] = skipped_count
-            print(f"✅ Parsed {len(valid_records)} valid records")
+            print(f"Parsed {len(valid_records)} valid records")
             parsed_data = valid_records  # Use only valid records
 
             # If overwrite, delete existing data
             if overwrite:
-                print("🗑️  Deleting existing connections...")
+                print("Deleting existing connections...")
                 self.db.query(Connection).delete()
                 self.db.commit()
 
             # Step 2: Normalize data
-            print("🧹 Normalizing data...")
+            print("Normalizing data...")
             for row in parsed_data:
                 normalized = self.normalizer.normalize_row(row)
                 row.update(normalized)
 
             # Step 3: Classify connections
-            print("🏷️  Classifying connections...")
+            print("Classifying connections...")
             for row in parsed_data:
                 classification = self.classifier.classify(row)
                 row.update(classification)
 
             # Step 4: Calculate scores
-            print("📊 Calculating scores...")
+            print("Calculating scores...")
             # Get active scoring config
             active_config = self.get_active_scoring_config()
 
@@ -121,7 +121,7 @@ class DataPipeline:
                 row.update(scores)
 
             # Step 5: Store in database
-            print("💾 Storing connections in database...")
+            print("Storing connections in database...")
             connections = []
             for row in parsed_data:
                 conn = self.upsert_connection(row)
@@ -130,14 +130,14 @@ class DataPipeline:
 
             # Commit all connections
             self.db.commit()
-            print(f"✅ Stored {len(connections)} connections")
+            print(f"Stored {len(connections)} connections")
 
             # Step 6: Recalculate scores with company connection counts
-            print("🔄 Recalculating scores with company data...")
+            print("Recalculating scores with company data...")
             self.recalculate_scores_with_company_data(connections, active_config)
 
             # Step 7: Aggregate company metrics
-            print("🏢 Aggregating company metrics...")
+            print("Aggregating company metrics...")
             self.aggregator.recalculate_all_companies()
             self.db.commit()
 
@@ -146,7 +146,7 @@ class DataPipeline:
                 "unique_companies": self.db.query(Connection.company_id).distinct().count(),
             })
 
-            print(f"✨ Processing complete! {len(connections)} connections processed.")
+            print(f"Processing complete! {len(connections)} connections processed.")
 
             return ProcessingResult(
                 success=True,
@@ -156,7 +156,7 @@ class DataPipeline:
             )
 
         except Exception as e:
-            print(f"❌ Error during processing: {str(e)}")
+            print(f"Error during processing: {str(e)}")
             self.db.rollback()
             return ProcessingResult(
                 success=False,

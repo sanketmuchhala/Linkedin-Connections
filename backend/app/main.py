@@ -49,8 +49,8 @@ def health_check():
 @app.on_event("startup")
 async def startup_event():
     """Run on application startup."""
-    print(f"🚀 Starting {settings.APP_NAME} v{settings.APP_VERSION}")
-    print(f"📚 API Documentation: http://localhost:8000/docs")
+    print(f"Starting {settings.APP_NAME} v{settings.APP_VERSION}")
+    print(f"API Documentation: http://localhost:8000/docs")
 
 if __name__ == "__main__":
     import uvicorn

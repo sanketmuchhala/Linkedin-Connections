@@ -63,7 +63,7 @@ export default function PriorityOutreachPage() {
           {/* Referral Asks */}
           {referralAsks.length > 0 && (
             <OutreachGroup
-              title="🎯 Referral Asks"
+              title="Referral Asks"
               subtitle="High-scoring technical contacts at target companies"
               connections={referralAsks}
               badgeColor="blue"
@@ -73,7 +73,7 @@ export default function PriorityOutreachPage() {
           {/* Founder/Executive Networking */}
           {founderNetwork.length > 0 && (
             <OutreachGroup
-              title="🚀 Startup Networking"
+              title="Startup Networking"
               subtitle="Founders and executives for strategic connections"
               connections={founderNetwork}
               badgeColor="orange"
@@ -83,7 +83,7 @@ export default function PriorityOutreachPage() {
           {/* Recruiter Outreach */}
           {recruiterOutreach.length > 0 && (
             <OutreachGroup
-              title="💼 Recruiter Messages"
+              title="Recruiter Messages"
               subtitle="Recruiters at relevant companies"
               connections={recruiterOutreach}
               badgeColor="green"
@@ -93,7 +93,7 @@ export default function PriorityOutreachPage() {
           {/* Informational Chats */}
           {informational.length > 0 && (
             <OutreachGroup
-              title="☕ Informational Chats"
+              title="Informational Chats"
               subtitle="Other high-value connections worth reaching out to"
               connections={informational}
               badgeColor="purple"

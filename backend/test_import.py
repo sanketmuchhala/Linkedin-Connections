@@ -16,7 +16,7 @@ db = SessionLocal()
 # Path to CSV file
 csv_path = "/Users/sanketmuchhala/Documents/GitHub/Linkedin Connections/Connections.csv"
 
-print(f"🚀 Starting import of {csv_path}...")
+print(f"Starting import of {csv_path}...")
 print("-" * 80)
 
 # Create pipeline and process CSV
@@ -30,9 +30,9 @@ result = pipeline.process_csv(csv_path, overwrite=True)
 
 if result.success:
     print("\n" + "=" * 80)
-    print("✨ IMPORT SUCCESSFUL!")
+    print("IMPORT SUCCESSFUL!")
     print("=" * 80)
-    print(f"\n📊 Summary:")
+    print(f"\nSummary:")
     print(f"   Total connections processed: {result.processed_count}")
     print(f"   Unique companies: {result.summary.get('unique_companies', 0)}")
     print(f"   With email: {result.summary.get('with_email', 0)} ({result.summary.get('email_percentage', 0)}%)")
@@ -40,13 +40,13 @@ if result.success:
     print(f"   With position: {result.summary.get('with_position', 0)} ({result.summary.get('position_percentage', 0)}%)")
 else:
     print("\n" + "=" * 80)
-    print("❌ IMPORT FAILED!")
+    print("IMPORT FAILED!")
     print("=" * 80)
-    print(f"\n📛 Errors:")
+    print(f"\nErrors:")
     for error in result.errors:
         print(f"   - {error}")
 
 # Close database session
 db.close()
 
-print("\n✅ Test complete!")
+print("\nTest complete!")

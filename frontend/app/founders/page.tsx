@@ -60,7 +60,7 @@ export default function FoundersPage() {
       {aiMlFounders.length > 0 && (
         <div className="bg-white rounded-lg shadow p-6">
           <h2 className="text-xl font-semibold text-gray-900 mb-4">
-            🤖 AI/ML Founders ({aiMlFounders.length})
+            AI/ML Founders ({aiMlFounders.length})
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {aiMlFounders.map(founder => (

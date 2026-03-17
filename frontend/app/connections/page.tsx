@@ -127,7 +127,7 @@ function ConnectionsContent() {
                   : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
               }`}
             >
-              {filters.is_ai_ml ? '✓ ' : ''}AI/ML
+              {filters.is_ai_ml ? '+ ' : ''}AI/ML
             </button>
             <button
               onClick={() => toggleFilter('is_founder')}
@@ -137,7 +137,7 @@ function ConnectionsContent() {
                   : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
               }`}
             >
-              {filters.is_founder ? '✓ ' : ''}Founders
+              {filters.is_founder ? '+ ' : ''}Founders
             </button>
             <button
               onClick={() => toggleFilter('is_recruiter')}
@@ -147,7 +147,7 @@ function ConnectionsContent() {
                   : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
               }`}
             >
-              {filters.is_recruiter ? '✓ ' : ''}Recruiters
+              {filters.is_recruiter ? '+ ' : ''}Recruiters
             </button>
             <button
               onClick={() => setFilters({

@@ -1,4 +1,4 @@
-# 🚀 Quick Start Guide
+# Quick Start Guide
 
 ## Starting the Application
 
@@ -21,8 +21,8 @@ uvicorn app.main:app --host 127.0.0.1 --port 8000 --reload
 **Wait until you see:**
 ```
 INFO:     Uvicorn running on http://127.0.0.1:8000
-🚀 Starting LinkedIn Network Intelligence v1.0.0
-📚 API Documentation: http://localhost:8000/docs
+Starting LinkedIn Network Intelligence v1.0.0
+API Documentation: http://localhost:8000/docs
 ```
 
 ### Terminal 2: Start Frontend (Next.js)
@@ -40,7 +40,7 @@ npm run dev
 
 **Wait until you see:**
 ```
-✓ Ready in 2.3s
+Ready in 2.3s
 ○ Local:   http://localhost:3000
 ```
 
@@ -52,9 +52,9 @@ npm run dev
 
 ## Your Data
 
-✅ **6,838 connections** imported and analyzed
-✅ **3,736 companies** with network intelligence
-✅ Database: `data/linkedin_intelligence.db` (8.3 MB)
+**6,838 connections** imported and analyzed
+**3,736 companies** with network intelligence
+Database: `data/linkedin_intelligence.db` (8.3 MB)
 
 ## What You Can Do
 

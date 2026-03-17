@@ -2,7 +2,7 @@
 
 A production-quality, local-first web application that transforms your LinkedIn connections into an intelligent job-hunt dashboard.
 
-## 🎯 Features
+## Features
 
 - **CSV Import**: Upload your LinkedIn Connections.csv file
 - **Smart Classification**: Automatically detects recruiters, founders, AI/ML engineers, seniority levels
@@ -11,7 +11,7 @@ A production-quality, local-first web application that transforms your LinkedIn 
 - **Network Analytics**: Visual dashboards showing your network distribution
 - **Local-First**: No external APIs, all data stays on your machine
 
-## 🏗️ Architecture
+## Architecture
 
 **Backend**: FastAPI + Python + SQLite
 - Data pipeline with CSV parser, normalization, classification, and scoring
@@ -23,9 +23,9 @@ A production-quality, local-first web application that transforms your LinkedIn 
 - Clean, minimal UI focused on actionability
 - Real-time data from backend API
 
-## 📊 What's Been Built
+## What's Been Built
 
-### ✅ Backend (Complete)
+### Backend (Complete)
 - SQLAlchemy models for connections, companies, outreach logs
 - CSV parser with validation (handles 7,000+ connections)
 - Normalization service (cleans names, companies, titles)
@@ -38,14 +38,14 @@ A production-quality, local-first web application that transforms your LinkedIn 
   - `/api/analytics/overview` - Dashboard statistics
   - `/api/import/csv` - Upload CSV files
 
-### ✅ Frontend (Basic Implementation)
+### Frontend (Basic Implementation)
 - Next.js 14 with App Router
 - Overview dashboard with stats cards
 - Sidebar navigation
 - API client for backend communication
 - TypeScript types
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Python 3.9+
@@ -104,7 +104,7 @@ curl -X POST http://localhost:8000/api/import/csv \
   -F "file=@../Connections.csv"
 ```
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 linkedin-intelligence/
@@ -140,7 +140,7 @@ linkedin-intelligence/
 └── README.md
 ```
 
-## 🎨 Scoring Algorithm
+## Scoring Algorithm
 
 Connections are scored using a transparent weighted algorithm:
 
@@ -160,7 +160,7 @@ Connections are scored using a transparent weighted algorithm:
 
 **Result:** Each connection gets a score 0-100 with a human-readable explanation.
 
-## 📊 Database Stats (Current)
+## Database Stats (Current)
 
 Based on the test import:
 - **6,838 connections** successfully imported
@@ -168,7 +168,7 @@ Based on the test import:
 - **98.4%** have company and position data
 - **170 invalid rows** skipped (empty names, bad URLs)
 
-## 🔮 Roadmap (V2)
+## Roadmap (V2)
 
 - [ ] Connections table with advanced filtering
 - [ ] Priority Outreach view (score ≥ 70)
@@ -180,7 +180,7 @@ Based on the test import:
 - [ ] Company detail pages
 - [ ] Dark mode support
 
-## 🛠️ Development
+## Development
 
 ### Running Tests
 
@@ -200,7 +200,7 @@ cd frontend
 npm run lint
 ```
 
-## 📝 Environment Variables
+## Environment Variables
 
 **Backend (`backend/.env`):**
 ```
@@ -214,15 +214,15 @@ LOG_LEVEL=INFO
 NEXT_PUBLIC_API_URL=http://localhost:8000
 ```
 
-## 🤝 Contributing
+## Contributing
 
 This is a personal project, but suggestions are welcome! Open an issue or submit a pull request.
 
-## 📄 License
+## License
 
 MIT License - Feel free to use this for your own job search!
 
-## 🎯 Key Success Metric
+## Key Success Metric
 
 **Can you answer "Who should I contact this week for AI/ML roles?" in under 10 seconds?**
 
