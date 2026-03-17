@@ -151,7 +151,11 @@ export default function OverviewPage() {
         <h2 className="text-xl font-semibold text-gray-900 mb-4">Top Companies by Network Strength</h2>
         <div className="space-y-3">
           {analytics.top_companies.slice(0, 10).map((company: any, idx: number) => (
-            <div key={idx} className="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
+            <a
+              key={idx}
+              href={`/connections?search=${encodeURIComponent(company.name)}`}
+              className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-blue-50 transition cursor-pointer"
+            >
               <div className="flex-1">
                 <p className="font-medium text-gray-900">{company.name}</p>
                 <p className="text-sm text-gray-500">
@@ -165,7 +169,7 @@ export default function OverviewPage() {
                 </p>
                 <p className="text-xs text-gray-500">Strength</p>
               </div>
-            </div>
+            </a>
           ))}
         </div>
       </div>

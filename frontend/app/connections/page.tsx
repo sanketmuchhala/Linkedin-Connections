@@ -1,16 +1,26 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { Suspense, useEffect, useState } from 'react';
+import { useSearchParams } from 'next/navigation';
 import { apiClient } from '@/lib/api-client';
 import type { Connection } from '@/lib/types';
 
 export default function ConnectionsPage() {
+  return (
+    <Suspense fallback={<div className="text-center py-12"><div className="text-gray-500">Loading connections...</div></div>}>
+      <ConnectionsContent />
+    </Suspense>
+  );
+}
+
+function ConnectionsContent() {
+  const searchParams = useSearchParams();
   const [connections, setConnections] = useState<Connection[]>([]);
   const [loading, setLoading] = useState(true);
   const [total, setTotal] = useState(0);
   const [page, setPage] = useState(0);
   const [filters, setFilters] = useState({
-    search: '',
+    search: searchParams.get('search') || '',
     is_ai_ml: null as boolean | null,
     is_founder: null as boolean | null,
     is_recruiter: null as boolean | null,
